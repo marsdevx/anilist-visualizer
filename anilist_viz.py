@@ -180,11 +180,22 @@ for list_item in data['data']['MediaListCollection']['lists']:
         elif av_score >= 90:
             proper_av_score_count["9-10"] += 1
 
+print("Showing Seasons graph")
 plot_pie_chart(season_count, 'Seasons')
+
+print("Showing Country graph")
 plot_pie_chart(country_count, 'Country')
+
+print("Showing Years graph")
 plot_pie_chart(proper_year_count, 'Years')
+
+print("Showing My Score graph")
 plot_pie_chart(proper_score_count, 'My Score')
+
+print("Showing Average Score graph")
 plot_pie_chart(proper_av_score_count, 'Average Score')
+
+print("Showing Genres graph")
 plot_pie_chart(proper_genere_count, 'Genres')
 
 plt.show()
