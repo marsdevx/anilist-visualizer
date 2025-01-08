@@ -21,11 +21,16 @@
 #                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠊⠀⡠⢻⣿⡤⣝⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁⣠⣾⡿⢰⣇⣿⠸⢹⠀⠀⠀⠸⠘⠀⢛⠉⠈⠇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   #
 #                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠸⣿⣇⢿⡇⢰⣬⠙⠛⠿⠿⣿⣿⣿⣿⣿⠿⠛⠁⠀⣠⣾⠟⣯⣾⣼⢹⡟⠁⡎⠀⢰⡶⠿⠟⠋⡛⠛⠓⠾⢭⣝⣛⠻⠿⢿⣿⣿⣿⣿⣿   #
 
+import sys
 import requests
 import matplotlib.pyplot as plt
 from pie_chart import plot_pie_chart
 
-ani_token = ''
+if len(sys.argv) < 2:
+  print("Usage: python anilist_viz.py <ani_token>")
+  sys.exit(1)
+
+ani_token = sys.argv[1]
 
 ani_headers = {
   'Authorization': 'Bearer ' + ani_token,
