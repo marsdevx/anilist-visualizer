@@ -25,12 +25,16 @@ import sys
 import requests
 import matplotlib.pyplot as plt
 from pie_chart import plot_pie_chart
+from urllib.parse import urlparse, parse_qs
 
 if len(sys.argv) < 2:
-  print("Usage: python anilist_viz.py <ani_token>")
+  print("Usage: python anilist_viz.py <url>")
   sys.exit(1)
 
-ani_token = sys.argv[1]
+url = sys.argv[1]
+fragment = urlparse(url).fragment
+params = parse_qs(fragment)
+ani_token = params.get("access_token", [None])[0]
 
 ani_headers = {
   'Authorization': 'Bearer ' + ani_token,
