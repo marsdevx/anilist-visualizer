@@ -46,7 +46,7 @@ git clone https://github.com/marsdevx/anilist-visualizer.git ~/Downloads/Anilist
 2. **Install dependencies**
 ```bash
 brew install python
-pip3 install --break-system-packages matplotlib requests
+pip3 install --break-system-packages matplotlib requests validators
 ```
 
 ---

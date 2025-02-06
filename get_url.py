@@ -47,6 +47,9 @@ if len(sys.argv) != 2:
   sys.exit(1)
 
 id = sys.argv[1]
+if not id.isdigit():
+    print("Invalid ID format. It must be a positive integer.") 
+    sys.exit(1)
 
 oauth_url = f"https://anilist.co/api/v2/oauth/authorize?client_id={id}&response_type=token"
 

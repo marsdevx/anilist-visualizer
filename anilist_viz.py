@@ -23,6 +23,7 @@
 
 import sys
 import requests
+import validators
 import matplotlib.pyplot as plt
 from pie_chart import plot_pie_chart
 from urllib.parse import urlparse, parse_qs
@@ -59,6 +60,11 @@ if len(sys.argv) != 2:
   sys.exit(1)
 
 url = sys.argv[1]
+validators.url(url)
+if not validators.url(url):
+    print("Invalid URL")
+    sys.exit(1)
+
 fragment = urlparse(url).fragment
 params = parse_qs(fragment)
 ani_token = params.get("access_token", [None])[0]
