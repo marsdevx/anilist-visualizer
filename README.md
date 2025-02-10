@@ -5,11 +5,15 @@
 <br>
 
 <div align="center">
-  <img src="https://custom-icon-badges.demolab.com/github/last-commit/marsdevx/anilist-visualizer?logoColor=white&labelColor=2C2C2C&label=Last%20Commit&color=8A2BE2&logo=mark-github" alt="Last Commit">
-  <img src="https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Languages&message=Python%203.13&color=D32F2F&logo=file-code" alt="Languages">
-  <img src="https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Graphs&message=%206%20&color=748ADB&logo=issue-tracks" alt="Graphs">
-  <img src="https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=API&message=AniList%20GraphQL&color=F47F42&logo=graphql" alt="AniList API">
-  <img src="https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Data%20Visualization&message=Enabled&color=009688&logo=project" alt="Data Visualization">
+
+  [![Last Commit](https://custom-icon-badges.demolab.com/github/last-commit/marsdevx/anilist-visualizer?logoColor=white&labelColor=2C2C2C&label=Last%20Commit&color=8A2BE2&logo=mark-github)](https://github.com/marsdevx/anilist-visualizer/commits/main "Last Commit")
+  [![Languages](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Languages&message=Python%203.13&color=D32F2F&logo=file-code)](https://github.com/marsdevx/anilist-visualizer "Languages")
+  <br>
+  [![Graphs](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Graphs&message=%206%20&color=748ADB&logo=issue-tracks)](https://github.com/marsdevx/anilist-visualizer/blob/main/imgs/preview.png "Graphs")
+  [![AniList API](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=API&message=AniList%20GraphQL&color=F47F42&logo=graphql)](https://docs.anilist.co "AniList API")
+  [![Data Visualization](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Data%20Visualization&message=Enabled&color=009688&logo=project)](https://github.com/marsdevx/anilist-visualizer/blob/main/imgs/preview.png "Data Visualization")
+  [![License](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=License&message=MIT&color=00C853&logo=law)](https://github.com/marsdevx/anilist-visualizer/blob/main/LICENSE "License")
+
 </div>
 
 ---
